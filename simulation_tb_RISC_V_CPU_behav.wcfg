@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RISC_V_CPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_RISC_V_CPU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="64683463fs"></ZoomEndTime>
+      <Cursor1Time time="170000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_RISC_V_CPU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/PCD" type="array">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/ALUControlE" type="array">
+      <obj_property name="ElementShortName">ALUControlE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/RD1_E" type="array">
+      <obj_property name="ElementShortName">RD1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/RD2_E" type="array">
+      <obj_property name="ElementShortName">RD2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/Imm_Ext_E" type="array">
+      <obj_property name="ElementShortName">Imm_Ext_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_Ext_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/ALU_ResultM" type="array">
+      <obj_property name="ElementShortName">ALU_ResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_ResultM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/ResultW" type="array">
+      <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/RDW" type="array">
+      <obj_property name="ElementShortName">RDW[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RDW[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISC_V_CPU/caoky/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
+   </wvobject>
+</wave_config>
