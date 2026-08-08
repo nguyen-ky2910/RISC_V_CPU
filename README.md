@@ -248,7 +248,7 @@ Developed by [nguyen-ky2910](https://github.com/nguyen-ky2910) as an educational
 
 ## License
 
-No license file is currently included in this repository.
+No license file is currently included in this repository
 
 Unless a license is added, copyright remains with the repository owner and reuse is not automatically granted. If the project is intended for open-source reuse, consider adding a standard license such as:
 
